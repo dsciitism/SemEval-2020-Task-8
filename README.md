@@ -29,12 +29,12 @@ We use a combination of state-of-the-art model architectures and adapt them for 
 * Vision Models: AlexNet, ResNet
 
 ## Modality Fusion
+![](/Fusion_Diagram.png)
 
 We explore three modality fusion techniques:\
 a) Early Fusion \
 b) Gated Multimodal Unit (GMU) \
 c) Late Fusion \
-![](/Fusion_Diagram.png)
 
 ## Results
 
