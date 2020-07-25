@@ -8,9 +8,32 @@ Authors: Pradyumna Gupta, Himanshu Gupta and Aman Sinha
 Keras version: 2.3.0  
 Tensorflow version: 2.2.0
 
-# Why memes matter?
+## Why memes matter?
 
 * Social media is becoming increasingly abundant in memes which are mostly derived from news, popular TV shows and movies making them capable of conveying ideas that the masses can understand readily.
 * Today memes are shared in numerous online communities and are not only limited to one language. It is therefore imperative to study this emerging form of mass communication.
 * Although they are mostly for amusement and satire, memes are also being used to propagate controversial, hateful and offensive ideologies.
 * Since it is not feasible to manually inspect such content it is important to build systems that can process memes and segregate them into appropriate categories.
+
+## Tasks Involved
+
+* Task A involves classifying the sentiment of an internet meme as positive, negative or neutral.
+* Task B is the multilabel classification of a meme into 4 categories viz. sarcastic, humorous, offensive
+and motivational.
+* Task C is to quantify, on a scale of 0-3 (0 = not, 1 = slightly, 2 = mildly, 3 = very), the extent of
+sarcasm, humor and offence expressed in a meme.
+
+## Models Used
+
+We use a combination of state-of-the-art model architectures and adapt them for processing multimodal memes through transfer learning while also training models from scratch for comparison.
+* Text Models: BiLSTM, RoBERTa
+* Vision Models: AlexNet, ResNet
+
+## Modality Fusion
+
+We explore three modality fusion techniques.
+![](/fusion.png)
+
+## Results
+
+The evaluation metric used here is the macro F1 score for Task A. For Task B and Task C, the macro F1 scores for each subtask were averaged.
