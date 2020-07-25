@@ -36,4 +36,4 @@ We explore three modality fusion techniques.
 
 ## Results
 
-The evaluation metric used here is the macro F1 score for Task A. For Task B and Task C, the macro F1 scores for each subtask were averaged.
+Overall, the RoBERTa+ResNet model with Early Fusion has the best performance for Task A and Task B with F1 scores 0.357 and 0.510 respectively. The same model using the Late Fusion strategy has the best F1 score of 0.312 for Task C.
