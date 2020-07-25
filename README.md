@@ -30,7 +30,10 @@ We use a combination of state-of-the-art model architectures and adapt them for 
 
 ## Modality Fusion
 
-We explore three modality fusion techniques.
+We explore three modality fusion techniques:
+a) Early Fusion 
+b) Gated Multimodal Unit (GMU) 
+c) Late Fusion 
 ![](/Fusion_Diagram.png)
 
 ## Results
