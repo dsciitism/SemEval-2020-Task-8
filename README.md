@@ -31,7 +31,7 @@ We use a combination of state-of-the-art model architectures and adapt them for 
 ## Modality Fusion
 
 We explore three modality fusion techniques.
-![](/fusion.png)
+![](/Fusion_Diagram.png)
 
 ## Results
 
