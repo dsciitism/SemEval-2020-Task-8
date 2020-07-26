@@ -22,6 +22,8 @@ and motivational.
 * Task C is to quantify, on a scale of 0-3 (0 = not, 1 = slightly, 2 = mildly, 3 = very), the extent of
 sarcasm, humor and offence expressed in a meme.
 
+Detailed information about the task and dataset can be found at https://competitions.codalab.org/competitions/20629
+
 ## Models Used
 
 We use a combination of state-of-the-art model architectures and adapt them for processing multimodal memes through transfer learning while also training models from scratch for comparison.
